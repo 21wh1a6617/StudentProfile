@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Student Profile</title>
+</head>
+<body>
+    <header>
+        <h1>Student Profile</h1>
+        <h2>Welcome to BVRITH</h2>
+    </header>
+    
+    <section>
+        <h2>Bio</h2>
+        <form>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+           
+            </select><br>
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+            <label for="hobby1">Reading</label><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="sports">
+           
+        </form>
+    </section>
+    
+    <section>
+        <h2>Inf</h2>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br>
+        <label for="branches">Branches Available:</label><br>
+        <select id="branches" name="branches">
+            <option value="cse"></option>
+            <option value="aiml"></option>
+         
+        </select><br>
+    </section>
+    
+    <section>
+        <h2>Upload Resume</h2>
+        <input type="file" id="resume" name="resume">
+    </section>
+</body>
+</html>
+
